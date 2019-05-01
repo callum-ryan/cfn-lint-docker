@@ -5,6 +5,11 @@ $ export API_TOKEN=123456789abcdefg
 $ build.sh rebuild
 ```
 
+On a mac, `greadlink` needs to be installed - which is in `coreutils`:
+```bash
+$ brew install coreutils
+```
+
 Put this in `.bashrc` or `.zshrc` to run almost natively
 ```bash
 cfn-lint(){
